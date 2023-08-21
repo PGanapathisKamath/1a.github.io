@@ -1,11 +1,7 @@
 .logo img{
     max-height: 70px;
 }
-img{
- display: block;
- margin-right: auto;
- margin-left: auto;
-        }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
