@@ -12,38 +12,43 @@ flex-direction: column;
 background: yellow;
 padding: 20px;
 }
-.menu{
-    display:flex ;
-    flex-direction: column;
+.menu {
+    display: flex;
     list-style: none;
     justify-content: space-between;
     padding: 2px 2px;
-
 }
-.submenu{
+
+.menu li {
+    margin-right: 20px;
+}
+
+.submenu {
     display: none;
-    position:absolute;
-    background-color:white;
+    position: absolute;
+    background-color: white;
     list-style: none;
     padding: 10px;
 }
-.dropdown:hover .submenu{
-display: block;
+
+.dropdown:hover .submenu {
+    display: block;
 }
-.submenu li{
-    margin:5px 0;
+
+.submenu li {
+    margin: 5px 0;
 }
-.menu a{
+
+.menu a {
     color: blue;
     text-decoration: none;
 }
-li a:hover{
-    background-color:blue;
-    color:white ;
+
+li a:hover {
+    background-color: blue;
+    color: white;
 }
-.menu li{
-    margin-right: 20px;
-}
+
 footer{
     margin-top: auto;
 }
